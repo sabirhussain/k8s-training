@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Pod-1
+  labels:
+    app: python-app
+
+spec:
+  containers:
+  - name: my-python-app
+    image: sabirhussain79/my-python-app
+    ports:
+    - name: py-app-port
+      containerPort: 80
