@@ -5,3 +5,8 @@ Kubernetes training as part of MS training.
 ```shell
 kubectl apply -f pod-nodejs.yml
 ```
+
+## Expose Service
+```shell
+minikube service helloworld-service --url
+```
